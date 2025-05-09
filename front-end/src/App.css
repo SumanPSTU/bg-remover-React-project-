@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@layer components {
+    .slider {
+        -webkit-appearance: none;
+
+
+
+    }
+
+    .slider::-webkit-slider-thumb {
+        
+        min-width: 20px;
+        min-height: 20px;
+       
+    }
+
+}
