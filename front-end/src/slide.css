@@ -12,5 +12,5 @@
     
     background: url('/src/assets/slide_icon.svg') no-repeat center;
     background-size: cover;
-    cursor: pointer;
+    cursor: grab;
 }

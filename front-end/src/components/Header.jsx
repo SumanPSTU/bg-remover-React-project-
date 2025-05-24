@@ -20,7 +20,7 @@ const Header = () => {
 
         <div className="mt-6">
           <input type="file" name="" id="upload1" hidden />
-          <label className="inline-flex gap-3 px-6 sm:px-8 py-3 bg-gradient-to-r from-violet-600 to-fuchsia-500 rounded-full cursor-pointer hover:scale-105 transition duration-500 items-center" htmlFor="upload1">
+          <label className="inline-flex gap-3 px-6 sm:px-8 py-3 bg-gradient-to-r from-violet-600 to-fuchsia-500 rounded-full cursor-pointer hover:scale-105 transition duration-500 items-center duration-300" htmlFor="upload1 ">
             <img src={assets.upload_btn_icon} alt="" className="w-5 sm:w-6" />
             <p className="text-white text-sm sm:text-md">Upload your image</p>
           </label>
@@ -29,7 +29,7 @@ const Header = () => {
 
       {/* Right div */}
       <div className="w-full sm:w-1/2 flex justify-center">
-        <img src={assets.header_img} alt="" className="max-w-full sm:max-w-[90%] lg:max-w-[80%]" />
+        <img src={assets.header_img} alt="" className="max-w-full sm:max-w-[90%] lg:max-w-[80%] hover:scale-108 duration-500" />
       </div>
 
     </div>
